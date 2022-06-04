@@ -17,6 +17,8 @@ import Iggy from "./../img/icons/03/06.png";
 import HolHorse from "./../img/icons/03/07.png";
 import VanilaIce from "./../img/icons/03/08.png";
 import DIO from "./../img/icons/03/09.png";
+import Mariah from "./../img/icons/03/10.png";
+import Petshop from "./../img/icons/03/11.png";
 import Josuke from "./../img/icons/04/01.png";
 import Okuyasu from "./../img/icons/04/02.png";
 import Koichi from "./../img/icons/04/03.png";
@@ -42,9 +44,11 @@ export default {
   icon17: HolHorse,
   icon18: VanilaIce,
   icon19: DIO,
-  icon20: Josuke,
-  icon21: Okuyasu,
-  icon22: Koichi,
-  icon23: Shigekiyo,
-  icon24: Rohan
+  icon20: Mariah,
+  icon21: Petshop,
+  icon22: Josuke,
+  icon23: Okuyasu,
+  icon24: Koichi,
+  icon25: Shigekiyo,
+  icon26: Rohan
 };

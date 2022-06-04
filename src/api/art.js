@@ -17,6 +17,8 @@ import Iggy from "./../img/art/03/06.png";
 import HolHorse from "./../img/art/03/07.png";
 import VanilaIce from "./../img/art/03/08.png";
 import DIO from "./../img/art/03/09.png";
+import Mariah from "./../img/art/03/10.png";
+import Petshop from "./../img/art/03/11.png";
 import Josuke from "./../img/art/04/01.png";
 import Okuyasu from "./../img/art/04/02.png";
 import Koichi from "./../img/art/04/03.png";
@@ -42,9 +44,11 @@ export default {
   img17: HolHorse,
   img18: VanilaIce,
   img19: DIO,
-  img20: Josuke,
-  img21: Okuyasu,
-  img22: Koichi,
-  img23: Shigekiyo,
-  img24: Rohan
+  img20: Mariah,
+  img21: Petshop,
+  img22: Josuke,
+  img23: Okuyasu,
+  img24: Koichi,
+  img25: Shigekiyo,
+  img26: Rohan
 };
