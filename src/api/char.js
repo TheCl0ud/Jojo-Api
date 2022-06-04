@@ -119,5 +119,12 @@ export default [
     part: "Stardust Crusader",
     rol: "enemy",
     artwork: artwork.img17,
+  },
+  {
+    img: icons.icon18,
+    name: "Vanilla",
+    part: "Stardust Crusader",
+    rol: "enemy",
+    artwork: artwork.img18,
   }
 ];

@@ -15,6 +15,7 @@ import Polnareff from "./../img/art/03/04.png";
 import OldJoshep from "./../img/art/03/05.png";
 import Iggy from "./../img/art/03/06.png";
 import HolHorse from "./../img/art/03/07.png";
+import VanilaIce from "./../img/art/03/08.png";
 export default {
   img1: Jonathan,
   img2: William,
@@ -32,5 +33,6 @@ export default {
   img14: Polnareff,
   img15: OldJoshep,
   img16: Iggy,
-  img17: HolHorse
+  img17: HolHorse,
+  img18: VanilaIce
 };
