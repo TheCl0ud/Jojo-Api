@@ -154,5 +154,20 @@ export default [
     part: "Diamond Is Unbreakable",
     rol: "ally",
     artwork: artwork.img22,
+  },
+  {
+    img: icons.icon23,
+    name: "Shigekiyo Yangu",
+    part: "Diamond Is Unbreakable",
+    rol: "ally",
+    artwork: artwork.img23,
+  },
+  {
+    img: icons.icon24,
+    name: "Rohan Kishibe",
+    part: "Diamond Is Unbreakable",
+    rol: "ally",
+    artwork: artwork.img24,
   }
+  
 ];

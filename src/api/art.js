@@ -20,6 +20,8 @@ import DIO from "./../img/art/03/09.png";
 import Josuke from "./../img/art/04/01.png";
 import Okuyasu from "./../img/art/04/02.png";
 import Koichi from "./../img/art/04/03.png";
+import Shigekiyo from "./../img/art/04/04.png";
+import Rohan from "./../img/art/04/05.png";
 export default {
   img1: Jonathan,
   img2: William,
@@ -42,5 +44,7 @@ export default {
   img19: DIO,
   img20: Josuke,
   img21: Okuyasu,
-  img22: Koichi
+  img22: Koichi,
+  img23: Shigekiyo,
+  img24: Rohan
 };
