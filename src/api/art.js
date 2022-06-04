@@ -16,6 +16,10 @@ import OldJoshep from "./../img/art/03/05.png";
 import Iggy from "./../img/art/03/06.png";
 import HolHorse from "./../img/art/03/07.png";
 import VanilaIce from "./../img/art/03/08.png";
+import DIO from "./../img/art/03/09.png";
+import Josuke from "./../img/art/04/01.png";
+import Okuyasu from "./../img/art/04/02.png";
+import Koichi from "./../img/art/04/03.png";
 export default {
   img1: Jonathan,
   img2: William,
@@ -34,5 +38,9 @@ export default {
   img15: OldJoshep,
   img16: Iggy,
   img17: HolHorse,
-  img18: VanilaIce
+  img18: VanilaIce,
+  img19: DIO,
+  img20: Josuke,
+  img21: Okuyasu,
+  img22: Koichi
 };

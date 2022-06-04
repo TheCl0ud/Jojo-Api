@@ -126,5 +126,33 @@ export default [
     part: "Stardust Crusader",
     rol: "enemy",
     artwork: artwork.img18,
+  },
+  {
+    img: icons.icon19,
+    name: "DIO",
+    part: "Stardust Crusader",
+    rol: "antagonist",
+    artwork: artwork.img19,
+  },
+  {
+    img: icons.icon20,
+    name: "Josuke Higashikata",
+    part: "Diamond Is Unbreakable",
+    rol: "protagonist",
+    artwork: artwork.img20,
+  },
+  {
+    img: icons.icon21,
+    name: "Okuyasu Nijimura",
+    part: "Diamond Is Unbreakable",
+    rol: "ally",
+    artwork: artwork.img21,
+  },
+  {
+    img: icons.icon22,
+    name: "Koichi Hirose",
+    part: "Diamond Is Unbreakable",
+    rol: "ally",
+    artwork: artwork.img22,
   }
 ];
