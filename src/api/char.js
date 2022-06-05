@@ -182,6 +182,27 @@ export default [
     part: "Diamond Is Unbreakable",
     rol: "ally",
     artwork: artwork.img26,
-  }
+  },
+  {
+    img: icons.icon27,
+    name: "Akira Otoishi",
+    part: "Diamond Is Unbreakable",
+    rol: "enemy",
+    artwork: artwork.img27,
+  },
+  {
+    img: icons.icon28,
+    name: "Kosaku Kawajiri",
+    part: "Diamond Is Unbreakable",
+    rol: "antagonist",
+    artwork: artwork.img28,
+  },
+  {
+    img: icons.icon29,
+    name: "Yoshikage Kira",
+    part: "Diamond Is Unbreakable",
+    rol: "antagonist",
+    artwork: artwork.img29
+  },
   
 ];

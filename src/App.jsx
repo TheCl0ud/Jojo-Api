@@ -4,7 +4,6 @@ import CSS from './App.css'
 const App = () => {
   const Click = () => {
     // const overlay = () =>;
-
   }
   return (
     <div id='wrapper'>

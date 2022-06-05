@@ -24,6 +24,9 @@ import Okuyasu from "./../img/art/04/02.png";
 import Koichi from "./../img/art/04/03.png";
 import Shigekiyo from "./../img/art/04/04.png";
 import Rohan from "./../img/art/04/05.png";
+import Akira from "./../img/art/04/06.png";
+import Kosaku from "./../img/art/04/07.png";
+import Kira from "./../img/art/04/08.png";
 export default {
   img1: Jonathan,
   img2: William,
@@ -50,5 +53,8 @@ export default {
   img23: Okuyasu,
   img24: Koichi,
   img25: Shigekiyo,
-  img26: Rohan
+  img26: Rohan,
+  img27: Akira,
+  img28: Kosaku,
+  img29: Kira
 };

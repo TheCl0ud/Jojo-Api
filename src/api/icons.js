@@ -24,6 +24,9 @@ import Okuyasu from "./../img/icons/04/02.png";
 import Koichi from "./../img/icons/04/03.png";
 import Shigekiyo from "./../img/icons/04/04.png";
 import Rohan from "./../img/icons/04/05.png";
+import Akira from "./../img/icons/04/06.png";
+import Kosaku from "./../img/icons/04/07.png";
+import Kira from "./../img/icons/04/08.png";
 export default {
   icon1: Jonathan,
   icon2: William,
@@ -50,5 +53,8 @@ export default {
   icon23: Okuyasu,
   icon24: Koichi,
   icon25: Shigekiyo,
-  icon26: Rohan
+  icon26: Rohan,
+  icon27: Akira,
+  icon28: Kosaku,
+  icon29: Kira
 };
