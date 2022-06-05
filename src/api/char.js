@@ -6,6 +6,7 @@ export default [
     name: "Jonathan Joestar",
     part: "Phantom Blood",
     rol: "protagonist",
+    hamonuser: true,
     artwork: artwork.img1,
   },
   {
@@ -13,6 +14,7 @@ export default [
     name: "William Zeppeli",
     part: "Phantom Blood",
     rol: "ally",
+    hamonuser: true,
     artwork: artwork.img2,
   },
   {
@@ -27,6 +29,7 @@ export default [
     name: "Dio Brando",
     part: "Phantom Blood",
     rol: "antagonist",
+    vampire: true,
     artwork: artwork.img4,
   },
   {
@@ -34,6 +37,7 @@ export default [
     name: "Joshep Joestar",
     part: "Battle Tendency",
     rol: "protagonist",
+    hamonuser: true,
     artwork: artwork.img5,
   },
   {
@@ -41,6 +45,7 @@ export default [
     name: "Caesar Zeppeli",
     part: "Battle Tendency",
     rol: "ally",
+    hamonuser: true,
     artwork: artwork.img6,
   },
   {
@@ -48,6 +53,7 @@ export default [
     name: "Lisa Lisa",
     part: "Battle Tendency",
     rol: "ally",
+    hamonuser: true,
     artwork: artwork.img7,
   },
   {
@@ -55,6 +61,7 @@ export default [
     name: "Esidisi",
     part: "Battle Tendency",
     rol: "antagonist",
+    vampire: true,
     artwork: artwork.img8,
   },
   {
@@ -62,6 +69,7 @@ export default [
     name: "Wamuu",
     part: "Battle Tendency",
     rol: "antagonist",
+    vampire: true,
     artwork: artwork.img9,
   },
   {
@@ -69,6 +77,7 @@ export default [
     name: "Kars",
     part: "Battle Tendency",
     rol: "antagonist",
+    vampire: true,
     artwork: artwork.img10,
   },
   {
@@ -76,6 +85,9 @@ export default [
     name: "Jotaro",
     part: "Stardust Crusader",
     rol: "protagonist",
+    hamonuser: false,
+    standuser: true,
+    vampire: false,
     artwork: artwork.img11,
   },
   {
@@ -83,6 +95,7 @@ export default [
     name: "Kakyoin",
     part: "Stardust Crusader",
     rol: "ally",
+    standuser: true,
     artwork: artwork.img12,
   },
   {
@@ -90,6 +103,7 @@ export default [
     name: "Muhammad Avdol",
     part: "Stardust Crusader",
     rol: "ally",
+    standuser: true,
     artwork: artwork.img13,
   },
   {
@@ -97,6 +111,7 @@ export default [
     name: "Polnareff",
     part: "Stardust Crusader",
     rol: "ally",
+    standuser: true,
     artwork: artwork.img14,
   },
   {
@@ -104,6 +119,8 @@ export default [
     name: "Joshep Joestar",
     part: "Stardust Crusader",
     rol: "ally",
+    standuser: true,
+    hamonuser: true,
     artwork: artwork.img15,
   },
   {
@@ -111,6 +128,7 @@ export default [
     name: "Iggy",
     part: "Stardust Crusader",
     rol: "ally",
+    standuser: true,
     artwork: artwork.img16,
   },
   {
@@ -118,6 +136,7 @@ export default [
     name: "Hol Horse",
     part: "Stardust Crusader",
     rol: "enemy",
+    standuser: true,
     artwork: artwork.img17,
   },
   {
@@ -125,6 +144,8 @@ export default [
     name: "Vanilla",
     part: "Stardust Crusader",
     rol: "enemy",
+    standuser: true,
+    vampire: true,
     artwork: artwork.img18,
   },
   {
@@ -132,6 +153,8 @@ export default [
     name: "DIO",
     part: "Stardust Crusader",
     rol: "antagonist",
+    standuser: true,
+    vampire: true,
     artwork: artwork.img19,
   },  
   {
@@ -139,6 +162,7 @@ export default [
     name: "Mariah",
     part: "Stardust Crusader",
     rol: "enemy",
+    standuser: true,
     artwork: artwork.img20,
   },
   {
@@ -146,6 +170,7 @@ export default [
     name: "Pet Shop",
     part: "Stardust Crusader",
     rol: "enemy",
+    standuser: true,
     artwork: artwork.img21,
   },
   {
@@ -153,6 +178,7 @@ export default [
     name: "Josuke Higashikata",
     part: "Diamond Is Unbreakable",
     rol: "protagonist",
+    standuser: true,
     artwork: artwork.img22,
   },
   {
@@ -160,6 +186,7 @@ export default [
     name: "Okuyasu Nijimura",
     part: "Diamond Is Unbreakable",
     rol: "ally",
+    standuser: true,
     artwork: artwork.img23,
   },
   {
@@ -167,6 +194,7 @@ export default [
     name: "Koichi Hirose",
     part: "Diamond Is Unbreakable",
     rol: "ally",
+    standuser: true,
     artwork: artwork.img24,
   },
   {
@@ -174,6 +202,7 @@ export default [
     name: "Shigekiyo Yangu",
     part: "Diamond Is Unbreakable",
     rol: "ally",
+    standuser: true,
     artwork: artwork.img25,
   },
   {
@@ -181,6 +210,7 @@ export default [
     name: "Rohan Kishibe",
     part: "Diamond Is Unbreakable",
     rol: "ally",
+    standuser: true,
     artwork: artwork.img26,
   },
   {
@@ -188,6 +218,7 @@ export default [
     name: "Akira Otoishi",
     part: "Diamond Is Unbreakable",
     rol: "enemy",
+    standuser: true,
     artwork: artwork.img27,
   },
   {
@@ -195,6 +226,7 @@ export default [
     name: "Kosaku Kawajiri",
     part: "Diamond Is Unbreakable",
     rol: "antagonist",
+    standuser: true,
     artwork: artwork.img28,
   },
   {
@@ -202,6 +234,7 @@ export default [
     name: "Yoshikage Kira",
     part: "Diamond Is Unbreakable",
     rol: "antagonist",
+    standuser: true,
     artwork: artwork.img29
   },
   

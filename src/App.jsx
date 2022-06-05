@@ -9,11 +9,13 @@ const App = () => {
     <div id='wrapper'>
       {
         characters.map(char => {
-          return (
-            <div className="char">
-              <button onClick={Click} title={char.name}><img src={char.img}></img></button>
-            </div>
-          )
+          if (char.rol === "enemy") {
+            return (
+              <div className="char">
+                <button onClick={Click} title={char.name}><img src={char.img}></img></button>
+              </div>
+            )
+          }
         }
         )
       }
