@@ -1,10 +1,11 @@
 import artwork from "./art";
 import icons from "./icons";
+import parts from "./part"
 export default [
   {
     img: icons.icon1,
     name: "Jonathan Joestar",
-    part: "Phantom Blood",
+    part: parts[0],
     rol: "protagonist",
     hamonuser: true,
     artwork: artwork.img1,
@@ -12,7 +13,7 @@ export default [
   {
     img: icons.icon2,
     name: "William Zeppeli",
-    part: "Phantom Blood",
+    part: parts[0],
     rol: "ally",
     hamonuser: true,
     artwork: artwork.img2,
@@ -20,14 +21,14 @@ export default [
   {
     img: icons.icon3,
     name: "Speedwagon",
-    part: "Phantom Blood",
+    part: parts[0],
     rol: "ally",
     artwork: artwork.img3,
   },
   {
     img: icons.icon4,
     name: "Dio Brando",
-    part: "Phantom Blood",
+    part: parts[0],
     rol: "antagonist",
     vampire: true,
     artwork: artwork.img4,
@@ -35,7 +36,7 @@ export default [
   {
     img: icons.icon5,
     name: "Joshep Joestar",
-    part: "Battle Tendency",
+    part: parts[1],
     rol: "protagonist",
     hamonuser: true,
     artwork: artwork.img5,
@@ -43,7 +44,7 @@ export default [
   {
     img: icons.icon6,
     name: "Caesar Zeppeli",
-    part: "Battle Tendency",
+    part: parts[1],
     rol: "ally",
     hamonuser: true,
     artwork: artwork.img6,
@@ -51,7 +52,7 @@ export default [
   {
     img: icons.icon7,
     name: "Lisa Lisa",
-    part: "Battle Tendency",
+    part: parts[1],
     rol: "ally",
     hamonuser: true,
     artwork: artwork.img7,
@@ -59,7 +60,7 @@ export default [
   {
     img: icons.icon8,
     name: "Esidisi",
-    part: "Battle Tendency",
+    part: parts[1],
     rol: "antagonist",
     vampire: true,
     artwork: artwork.img8,
@@ -67,7 +68,7 @@ export default [
   {
     img: icons.icon9,
     name: "Wamuu",
-    part: "Battle Tendency",
+    part: parts[1],
     rol: "antagonist",
     vampire: true,
     artwork: artwork.img9,
@@ -75,7 +76,7 @@ export default [
   {
     img: icons.icon10,
     name: "Kars",
-    part: "Battle Tendency",
+    part: parts[1],
     rol: "antagonist",
     vampire: true,
     artwork: artwork.img10,
@@ -83,7 +84,7 @@ export default [
   {
     img: icons.icon11,
     name: "Jotaro",
-    part: "Stardust Crusader",
+    part: parts[2],
     rol: "protagonist",
     standuser: true,
     artwork: artwork.img11,
@@ -91,7 +92,7 @@ export default [
   {
     img: icons.icon12,
     name: "Kakyoin",
-    part: "Stardust Crusader",
+    part: parts[2],
     rol: "ally",
     standuser: true,
     artwork: artwork.img12,
@@ -99,7 +100,7 @@ export default [
   {
     img: icons.icon13,
     name: "Muhammad Avdol",
-    part: "Stardust Crusader",
+    part: parts[2],
     rol: "ally",
     standuser: true,
     artwork: artwork.img13,
@@ -107,7 +108,7 @@ export default [
   {
     img: icons.icon14,
     name: "Polnareff",
-    part: "Stardust Crusader",
+    part: parts[2],
     rol: "ally",
     standuser: true,
     artwork: artwork.img14,
@@ -115,7 +116,7 @@ export default [
   {
     img: icons.icon15,
     name: "Joshep Joestar",
-    part: "Stardust Crusader",
+    part: parts[2],
     rol: "ally",
     standuser: true,
     hamonuser: true,
@@ -124,7 +125,7 @@ export default [
   {
     img: icons.icon16,
     name: "Iggy",
-    part: "Stardust Crusader",
+    part: parts[2],
     rol: "ally",
     standuser: true,
     artwork: artwork.img16,
@@ -132,7 +133,7 @@ export default [
   {
     img: icons.icon17,
     name: "Hol Horse",
-    part: "Stardust Crusader",
+    part: parts[2],
     rol: "enemy",
     standuser: true,
     artwork: artwork.img17,
@@ -140,7 +141,7 @@ export default [
   {
     img: icons.icon18,
     name: "Vanilla",
-    part: "Stardust Crusader",
+    part: parts[2],
     rol: "enemy",
     standuser: true,
     vampire: true,
@@ -149,7 +150,7 @@ export default [
   {
     img: icons.icon19,
     name: "DIO",
-    part: "Stardust Crusader",
+    part: parts[2],
     rol: "antagonist",
     standuser: true,
     vampire: true,
@@ -158,7 +159,7 @@ export default [
   {
     img: icons.icon20,
     name: "Mariah",
-    part: "Stardust Crusader",
+    part: parts[2],
     rol: "enemy",
     standuser: true,
     artwork: artwork.img20,
@@ -166,7 +167,7 @@ export default [
   {
     img: icons.icon21,
     name: "Pet Shop",
-    part: "Stardust Crusader",
+    part: parts[2],
     rol: "enemy",
     standuser: true,
     artwork: artwork.img21,
@@ -174,7 +175,7 @@ export default [
   {
     img: icons.icon22,
     name: "Josuke Higashikata",
-    part: "Diamond Is Unbreakable",
+    part: parts[3],
     rol: "protagonist",
     standuser: true,
     artwork: artwork.img22,
@@ -182,7 +183,7 @@ export default [
   {
     img: icons.icon23,
     name: "Okuyasu Nijimura",
-    part: "Diamond Is Unbreakable",
+    part: parts[3],
     rol: "ally",
     standuser: true,
     artwork: artwork.img23,
@@ -190,7 +191,7 @@ export default [
   {
     img: icons.icon24,
     name: "Koichi Hirose",
-    part: "Diamond Is Unbreakable",
+    part: parts[3],
     rol: "ally",
     standuser: true,
     artwork: artwork.img24,
@@ -198,7 +199,7 @@ export default [
   {
     img: icons.icon25,
     name: "Shigekiyo Yangu",
-    part: "Diamond Is Unbreakable",
+    part: parts[3],
     rol: "ally",
     standuser: true,
     artwork: artwork.img25,
@@ -206,7 +207,7 @@ export default [
   {
     img: icons.icon26,
     name: "Rohan Kishibe",
-    part: "Diamond Is Unbreakable",
+    part: parts[3],
     rol: "ally",
     standuser: true,
     artwork: artwork.img26,
@@ -214,7 +215,7 @@ export default [
   {
     img: icons.icon27,
     name: "Akira Otoishi",
-    part: "Diamond Is Unbreakable",
+    part: parts[3],
     rol: "enemy",
     standuser: true,
     artwork: artwork.img27,
@@ -222,7 +223,7 @@ export default [
   {
     img: icons.icon28,
     name: "Kosaku Kawajiri",
-    part: "Diamond Is Unbreakable",
+    part: parts[3],
     rol: "antagonist",
     standuser: true,
     artwork: artwork.img28,
@@ -230,7 +231,7 @@ export default [
   {
     img: icons.icon29,
     name: "Yoshikage Kira",
-    part: "Diamond Is Unbreakable",
+    part: parts[3],
     rol: "antagonist",
     standuser: true,
     artwork: artwork.img29
@@ -238,7 +239,7 @@ export default [
   {
     img: icons.icon30,
     name: "Giorno Giovanna",
-    part: "Golden Wind",
+    part: parts[4],
     rol: "protagonist",
     standuser: true,
     artwork: artwork.img30
@@ -246,7 +247,7 @@ export default [
   {
     img: icons.icon31,
     name: "Bruno Bucciarati",
-    part: "Golden Wind",
+    part: parts[4],
     rol: "ally",
     standuser: true,
     artwork: artwork.img31
@@ -254,7 +255,7 @@ export default [
   {
     img: icons.icon32,
     name: "Guido Mista",
-    part: "Golden Wind",
+    part: parts[4],
     rol: "ally",
     standuser: true,
     artwork: artwork.img32
@@ -262,7 +263,7 @@ export default [
   {
     img: icons.icon33,
     name: "Narancia Ghirga",
-    part: "Golden Wind",
+    part: parts[4],
     rol: "ally",
     standuser: true,
     artwork: artwork.img33
@@ -270,7 +271,7 @@ export default [
   {
     img: icons.icon34,
     name: "Pannacotta Fugo",
-    part: "Golden Wind",
+    part: parts[4],
     rol: "ally",
     standuser: true,
     artwork: artwork.img34
@@ -278,7 +279,7 @@ export default [
   {
     img: icons.icon35,
     name: "Diavolo",
-    part: "Golden Wind",
+    part: parts[4],
     rol: "antagonist",
     standuser: true,
     artwork: artwork.img35
@@ -286,7 +287,7 @@ export default [
   {
     img: icons.icon36,
     name: "Jolyne Cujoh",
-    part: "Stone Ocean",
+    part: parts[5],
     rol: "protagonist",
     standuser: true,
     artwork: artwork.img36
@@ -294,7 +295,7 @@ export default [
   {
     img: icons.icon37,
     name: "Ermes Costello",
-    part: "Stone Ocean",
+    part: parts[5],
     rol: "ally",
     standuser: true,
     artwork: artwork.img37
@@ -302,7 +303,7 @@ export default [
   {
     img: icons.icon38,
     name: "Narciso Anasui",
-    part: "Stone Ocean",
+    part: parts[5],
     rol: "ally",
     standuser: true,
     artwork: artwork.img38
@@ -310,7 +311,7 @@ export default [
   {
     img: icons.icon39,
     name: "Enrico Pucci",
-    part: "Stone Ocean",
+    part: parts[5],
     rol: "antagonist",
     standuser: true,
     artwork: artwork.img39
@@ -318,7 +319,7 @@ export default [
   {
     img: icons.icon40,
     name: "Johnny Joestar",
-    part: "Steel Ball Run",
+    part: parts[6],
     rol: "protagonist",
     spinuser: true,
     standuser: true,
@@ -327,7 +328,7 @@ export default [
   {
     img: icons.icon41,
     name: "Giro Zeppeli",
-    part: "Steel Ball Run",
+    part: parts[6],
     rol: "ally",
     spinuser: true,
     standuser: true,
@@ -336,7 +337,7 @@ export default [
   {
     img: icons.icon42,
     name: "Funny Valentine",
-    part: "Steel Ball Run",
+    part: parts[6],
     rol: "antagonist",
     standuser: true,
     artwork: artwork.img42
@@ -344,7 +345,7 @@ export default [
   {
     img: icons.icon43,
     name: "Diego Brando",
-    part: "Steel Ball Run",
+    part: parts[6],
     rol: "enemy",
     standuser: true,
     artwork: artwork.img43
@@ -352,7 +353,7 @@ export default [
   {
     img: icons.icon44,
     name: "Josuke Higashikata",
-    part: "Jojolion",
+    part: parts[7],
     rol: "protagonist",
     standuser: true,
     artwork: artwork.img44
