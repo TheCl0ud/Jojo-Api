@@ -33,6 +33,15 @@ import Mista from "./../img/icons/05/03.png";
 import Narancia from "./../img/icons/05/04.png";
 import Fugo from "./../img/icons/05/05.png";
 import Diavolo from "./../img/icons/05/06.png";
+import Jolyne from "./../img/icons/06/01.png";
+import Hermes from "./../img/icons/06/02.png";
+import Anasui from "./../img/icons/06/03.png";
+import Pucci from "./../img/icons/06/04.png";
+import Johnny from "./../img/icons/07/01.png";
+import Gyro from "./../img/icons/07/02.png";
+import Valentine from "./../img/icons/07/03.png";
+import Diego from "./../img/icons/07/04.png";
+import Josuke8 from "./../img/icons/08/01.png";
 export default {
   icon1: Jonathan,
   icon2: William,
@@ -69,4 +78,13 @@ export default {
   icon33: Narancia,
   icon34: Fugo,
   icon35: Diavolo,
+  icon36: Jolyne,
+  icon37: Hermes,
+  icon38: Anasui,
+  icon39: Pucci,
+  icon40: Johnny,
+  icon41: Gyro,
+  icon42: Valentine,
+  icon43: Diego,
+  icon44: Josuke8
 };

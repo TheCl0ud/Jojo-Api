@@ -279,8 +279,82 @@ export default [
     img: icons.icon35,
     name: "Diavolo",
     part: "Golden Wind",
-    rol: "ally",
-    standuser: "antagonist",
+    rol: "antagonist",
+    standuser: true,
     artwork: artwork.img35
+  },
+  {
+    img: icons.icon36,
+    name: "Jolyne Cujoh",
+    part: "Stone Ocean",
+    rol: "protagonist",
+    standuser: true,
+    artwork: artwork.img36
+  },
+  {
+    img: icons.icon37,
+    name: "Ermes Costello",
+    part: "Stone Ocean",
+    rol: "ally",
+    standuser: true,
+    artwork: artwork.img37
+  },
+  {
+    img: icons.icon38,
+    name: "Narciso Anasui",
+    part: "Stone Ocean",
+    rol: "ally",
+    standuser: true,
+    artwork: artwork.img38
+  },
+  {
+    img: icons.icon39,
+    name: "Enrico Pucci",
+    part: "Stone Ocean",
+    rol: "antagonist",
+    standuser: true,
+    artwork: artwork.img39
+  },
+  {
+    img: icons.icon40,
+    name: "Johnny Joestar",
+    part: "Steel Ball Run",
+    rol: "protagonist",
+    spinuser: true,
+    standuser: true,
+    artwork: artwork.img40
+  },
+  {
+    img: icons.icon41,
+    name: "Giro Zeppeli",
+    part: "Steel Ball Run",
+    rol: "ally",
+    spinuser: true,
+    standuser: true,
+    artwork: artwork.img41
+  },
+  {
+    img: icons.icon42,
+    name: "Funny Valentine",
+    part: "Steel Ball Run",
+    rol: "antagonist",
+    standuser: true,
+    artwork: artwork.img42
+  },
+  {
+    img: icons.icon43,
+    name: "Diego Brando",
+    part: "Steel Ball Run",
+    rol: "enemy",
+    standuser: true,
+    artwork: artwork.img43
+  },
+  {
+    img: icons.icon44,
+    name: "Josuke Higashikata",
+    part: "Jojolion",
+    rol: "protagonist",
+    standuser: true,
+    artwork: artwork.img44
   },
 ];
