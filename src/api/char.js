@@ -85,9 +85,7 @@ export default [
     name: "Jotaro",
     part: "Stardust Crusader",
     rol: "protagonist",
-    hamonuser: false,
     standuser: true,
-    vampire: false,
     artwork: artwork.img11,
   },
   {
@@ -237,5 +235,52 @@ export default [
     standuser: true,
     artwork: artwork.img29
   },
-  
+  {
+    img: icons.icon30,
+    name: "Giorno Giovanna",
+    part: "Golden Wind",
+    rol: "protagonist",
+    standuser: true,
+    artwork: artwork.img30
+  },
+  {
+    img: icons.icon31,
+    name: "Bruno Bucciarati",
+    part: "Golden Wind",
+    rol: "ally",
+    standuser: true,
+    artwork: artwork.img31
+  },
+  {
+    img: icons.icon32,
+    name: "Guido Mista",
+    part: "Golden Wind",
+    rol: "ally",
+    standuser: true,
+    artwork: artwork.img32
+  },
+  {
+    img: icons.icon33,
+    name: "Narancia Ghirga",
+    part: "Golden Wind",
+    rol: "ally",
+    standuser: true,
+    artwork: artwork.img33
+  },
+  {
+    img: icons.icon34,
+    name: "Pannacotta Fugo",
+    part: "Golden Wind",
+    rol: "ally",
+    standuser: true,
+    artwork: artwork.img34
+  },
+  {
+    img: icons.icon35,
+    name: "Diavolo",
+    part: "Golden Wind",
+    rol: "ally",
+    standuser: "antagonist",
+    artwork: artwork.img35
+  },
 ];

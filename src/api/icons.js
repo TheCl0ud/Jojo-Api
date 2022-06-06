@@ -27,6 +27,12 @@ import Rohan from "./../img/icons/04/05.png";
 import Akira from "./../img/icons/04/06.png";
 import Kosaku from "./../img/icons/04/07.png";
 import Kira from "./../img/icons/04/08.png";
+import Giorno from "./../img/icons/05/01.png";
+import Bruno from "./../img/icons/05/02.png";
+import Mista from "./../img/icons/05/03.png";
+import Narancia from "./../img/icons/05/04.png";
+import Fugo from "./../img/icons/05/05.png";
+import Diavolo from "./../img/icons/05/06.png";
 export default {
   icon1: Jonathan,
   icon2: William,
@@ -56,5 +62,11 @@ export default {
   icon26: Rohan,
   icon27: Akira,
   icon28: Kosaku,
-  icon29: Kira
+  icon29: Kira,
+  icon30: Giorno,
+  icon31: Bruno,
+  icon32: Mista,
+  icon33: Narancia,
+  icon34: Fugo,
+  icon35: Diavolo,
 };

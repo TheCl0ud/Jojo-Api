@@ -7,11 +7,14 @@ body {
   grid-template-columns: repeat(8, 1fr);
   margin: auto;
 }
+ul{
+  color: white;
+}
 .char {
   align-items: center;
 }
 .char img {
-  width: 75%;
+  width: 10.5rem;
   margin: 1.5rem;
   vertical-align: top;
 }
@@ -34,7 +37,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
   .char img {
-    width: 85%;
+    width: 6.5rem;
     margin: 0.5rem;
   }
   .char button {
