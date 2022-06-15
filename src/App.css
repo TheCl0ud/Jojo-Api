@@ -56,17 +56,17 @@ body {
 }
 /* @media (max-width: 1100px) {
   .characters {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .char img {
-    width: 6.5rem;
+    width: 0.1rem;
     margin: 0.5rem;
   }
   .char button {
     margin-left: 0rem;
     margin-bottom: 0rem;
   }
-  #filters{
+  #filters-content{
     visibility: hidden;
   }
 } */
