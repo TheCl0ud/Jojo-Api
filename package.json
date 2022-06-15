@@ -1,18 +1,21 @@
 {
+  "homepage": "thecl0ud.github.io/jojo-api",
   "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.8.1",
     "bootstrap": "^5.1.3",
-    // "react": "^18.0.0",
+    "react": "^18.0.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.0.0"
   },
@@ -20,6 +23,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
+    "gh-pages": "^4.0.0",
     "vite": "^2.9.9"
   }
 }

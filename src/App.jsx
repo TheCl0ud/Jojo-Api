@@ -11,21 +11,24 @@ const App = () => {
         {
           characters.map(char => {
             return (
-              <button title={char.name}><img src={char.img}></img></button>
+              <button key={char.img} title={char.name}><img src={char.img}></img></button>
             )
           })
         }
       </div>
       <div className="filters">
-        <ul>
-          {
-            parts.map(part => {
-              return (
-                <li>{part}<Checkbox></Checkbox></li>
-              )
-            })
-          }
-        </ul>
+        <div className="filters-content">
+          <h1>Parts</h1>
+          <ul>
+            {
+              parts.map(part => {
+                return (
+                  <li key={part}><Checkbox></Checkbox>{part}</li>
+                )
+              })
+            }
+          </ul>
+        </div>
       </div>
     </div>
 
