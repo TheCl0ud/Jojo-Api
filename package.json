@@ -1,8 +1,11 @@
 {
   "name": "my-react-app",
   "private": true,
+  "homepage": "thecl0ud.github.io/jojo-api",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -12,6 +15,7 @@
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.8.1",
     "bootstrap": "^5.1.3",
+    "gh-pages": "^4.0.0",
     "react": "^18.0.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.0.0"
