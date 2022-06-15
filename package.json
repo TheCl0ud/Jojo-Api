@@ -1,7 +1,6 @@
 {
   "name": "my-react-app",
   "private": true,
-  "homepage": "thecl0ud.github.io/jojo-api",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
