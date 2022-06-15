@@ -1,11 +1,14 @@
 {
+  "homepage":"thecl0ud.github.io/jojo-api",
   "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
