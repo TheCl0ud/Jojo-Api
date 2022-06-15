@@ -4,8 +4,6 @@
   "homepage": "thecl0ud.github.io/jojo-api",
   "version": "0.0.0",
   "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
