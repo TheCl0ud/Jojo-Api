@@ -3,9 +3,9 @@ import characters from './api/char';
 import parts from './api/part'
 import Checkbox from '@mui/material/Checkbox';
 import CSS from './App.css';
+import char from './api/char';
 const App = () => {
   return (
-
     <div id='wrapper'>
       <div className="characters">
         {
@@ -22,8 +22,11 @@ const App = () => {
           <ul>
             {
               parts.map(part => {
+                const Filter = () => {
+                  
+                };
                 return (
-                  <li key={part}><Checkbox></Checkbox>{part}</li>
+                  <li key={part} onClick={Filter}><Checkbox></Checkbox>{part}</li>
                 )
               })
             }
